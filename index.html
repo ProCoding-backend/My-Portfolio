@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohan Shaw - Personal Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="text-slate-200">
+    <div id="black-overlay"></div>
+    <div id="background-fader"></div>
+
+    <div class="min-h-screen w-full p-4 md:p-8">
+        <div class="max-w-6xl mx-auto flex flex-col gap-12 md:gap-20">
+
+
+            <section id="home" class="mt-12 md:mt-20">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-12">
+                    
+                    <div class="w-full md:w-3/5 text-center md:text-left">
+                        <h1 class="text-5xl md:text-7xl font-black tracking-tight">
+                            Sohan Shaw
+                        </h1>
+                        <div class="mt-4 text-2xl md:text-3xl font-medium text-slate-300 h-24 md:h-16">
+                            I am 
+                            <span id="typewriter" class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500"></span>
+                            <span class="blinking-cursor">|</span>
+                        </div>
+                        <p class="mt-4 text-lg text-slate-200 max-w-lg mx-auto md:mx-0">
+                            Welcome to my personal corner on the web. I'm a student exploring the worlds of technology and medicine.
+                        </p>
+                    </div>
+                    
+                    <div class="w-full md:w-2/5 flex justify-center">
+                        <div class="neon-border-animated w-64 h-64 md:w-80 md:h-80">
+                            <img src="myimg.png" 
+                                alt="Sohan Shaw" 
+                                class="w-full h-full object-cover rounded-full"
+                                onerror="this.src='https://placehold.co/400x400/262626/FFFFFF?text=Sohan'"
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="projects" class="glass-container p-6 md:p-10">
+                <h2 class="text-4xl font-bold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+                    My Projects
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <a href="https://github.com/ProCoding-backend/Text-Generator-V.1" target="_blank" rel="noopener noreferrer" class="block project-card rounded-2xl overflow-hidden shadow-lg">
+                        <img class="w-full h-48 object-cover" 
+                            src="aproj.png" 
+                            alt="AI Generator V.1"
+                            onerror="this.src='https://placehold.co/600x400/374151/FFFFFF?text=AI+Generator+V.1'">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-white mb-2">AI Generator V.1</h3>
+                            <p class="text-slate-300">A text generation model using AI. Explores natural language processing.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/ProCoding-backend/Eye-Detection-Mouse" target="_blank" rel="noopener noreferrer" class="block project-card rounded-2xl overflow-hidden shadow-lg">
+                        <img class="w-full h-48 object-cover" 
+                            src="bproj.png" 
+                            alt="Eye Detection Mouse"
+                            onerror="this.src='https://placehold.co/600x400/374151/FFFFFF?text=Eye+Detection+Mouse'">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-white mb-2">Eye Detection Mouse</h3>
+                            <p class="text-slate-300">An accessibility tool that controls the mouse cursor using eye movements.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/ProCoding-backend/2048-Game" target="_blank" rel="noopener noreferrer" class="block project-card rounded-2xl overflow-hidden shadow-lg">
+                        <img class="w-full h-48 object-cover" 
+                            src="cproj.png" 
+                            alt="2048 Game"
+                            onerror="this.src='https://placehold.co/600x400/374151/FFFFFF?text=2048+Game'">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-white mb-2">2048 Game</h3>
+                            <p class="text-slate-300">A web-based implementation of the classic puzzle game 2048.</p>
+                        </div>
+                    </a>
+                    
+                </div>
+            </section>
+
+
+            <section id="languages" class="glass-container p-6 md:p-10">
+                <h2 class="text-4xl font-bold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+                    Languages I use the most
+                </h2>
+                <div class="text-center text-slate-300 text-lg max-w-3xl mx-auto">
+                    
+                    <div class="progress-bar">
+                        <div class="progress" data-label="HTML" data-percent="52"></div>
+                    </div>
+                    
+                    <div class="progress-bar">
+                        <div class="progress" data-label="CSS" data-percent="85"></div>
+                    </div>
+                    
+                    <div class="progress-bar">
+                        <div class="progress" data-label="JavaScript and React" data-percent="87"></div>
+                    </div>
+                    
+                    <div class="progress-bar">
+                        <div class="progress" data-label="Python" data-percent="74"></div>
+                    </div>
+                    
+                    <div class="progress-bar">
+                        <div class="progress" data-label="Java" data-percent="62"></div>
+                    </div>
+                    
+                    <div class="progress-bar">
+                        <div class="progress" data-label="PHP" data-percent="80"></div>
+                    </div>
+                    
+                </div>
+            </section>
+
+
+            <section id="me-coding" class="glass-container p-6 md:p-10">
+                <h2 class="text-4xl font-bold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+                    Me & Coding
+                </h2>
+                <div class="text-center text-slate-300 text-lg">
+                    <p>Hi, I’m Sohan Shaw, a passionate and creative programmer who loves turning ideas into real working projects through code. I enjoy exploring the world of web development, software design, and problem-solving. My coding journey began with simple HTML and CSS, but soon expanded into powerful technologies like JavaScript, PHP, Python, and React.
+
+                        I love building responsive and interactive websites that blend clean design with smart functionality. Using HTML, CSS, and JS, I craft user-friendly interfaces, and with PHP and SQL, I bring backend logic and databases to life.
+                        
+                        I also enjoy working in Java, C, and C++, especially for algorithms, data structures, and understanding how systems work at a deeper level. My curiosity keeps pushing me to learn more each day and experiment with new frameworks and tools.</p>
+                </div>
+            </section>
+
+
+            <section id="love" class="glass-container p-6 md:p-10">
+                <h2 class="text-4xl font-bold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+                    Show your love
+                </h2>
+                <div class="text-center text-slate-300 text-lg">
+                    <div class="flex items-center justify-between p-4 bg-gray-900/50 rounded-full max-w-sm mx-auto shadow-xl border border-pink-500/30 instagram-card">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-16 h-16 rounded-full overflow-hidden p-0.5" style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);">
+                                <img src="ig.png" 
+                                    alt="Sohan Shaw Instagram Profile" 
+                                    class="w-full h-full object-cover rounded-full border-2 border-gray-900/90"
+                                    onerror="this.src='https://placehold.co/64x64/000000/FFFFFF?text=IG'">
+                            </div>
+                            <div>
+                                <span class="text-xl font-semibold text-white">definitely._sohan</span>
+                                <p class="text-xs text-gray-400">Student & Developer</p>
+                            </div>
+                        </div>
+                        <button id="instagram-follow-btn" class="follow-btn px-6 py-2 text-sm font-bold text-white rounded-full transition duration-300">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="contact" class="glass-container p-6 md:p-10 mb-20">
+                <h2 class="text-4xl font-bold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+                    Get In Touch
+                </h2>
+                <div class="flex justify-center items-center gap-12 md:gap-16">
+                    
+                    <a href="https://www.instagram.com/definitely._sohan?igsh=MW1hbTFwdHFwZ3Vmag==" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <i class="fab fa-instagram neon-icon"></i>
+                    </a>
+                    
+                    <a href="https://github.com/ProCoding-backend" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        <i class="fab fa-github neon-icon"></i>
+                    </a>
+                    
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
